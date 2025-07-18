@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 1s ease-in;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            animation: fadeIn 1s ease-in 0.3s both;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            animation: fadeIn 1s ease-in 0.6s both;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .message {
+            margin-top: 2rem;
+            padding: 1rem;
+            border-radius: 10px;
+            background: #f8f9fa;
+            color: #333;
+            font-size: 1.1rem;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World!</h1>
+        <p class="subtitle">Welcome to your first web application</p>
+        <button class="button" onclick="showMessage()">Click Me!</button>
+        <div id="message" class="message hidden"></div>
+    </div>
+
+    <script>
+        function showMessage() {
+            const messageDiv = document.getElementById('message');
+            const messages = [
+                "Hello from JavaScript!",
+                "Welcome to your app!",
+                "You clicked the button!",
+                "This is working perfectly!",
+                "Hello World indeed!"
+            ];
+            
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            messageDiv.textContent = randomMessage;
+            messageDiv.classList.remove('hidden');
+            
+            // Hide message after 3 seconds
+            setTimeout(() => {
+                messageDiv.classList.add('hidden');
+            }, 3000);
+        }
+
+        // Add some interactivity on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Hello World app loaded successfully!');
+        });
+    </script>
+</body>
+</html> 

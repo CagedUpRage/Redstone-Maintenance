@@ -1,0 +1,255 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Trim overgrown bushes and hedges.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370609Z",
+      "completedAt": null
+    },
+    {
+      "id": 2,
+      "title": "Clean and clear leaves, debris, and litter from walkways and stairs.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370634Z",
+      "completedAt": null
+    },
+    {
+      "id": 3,
+      "title": "Repair or repaint chipped or stained walls.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370641Z",
+      "completedAt": null
+    },
+    {
+      "id": 4,
+      "title": "Power wash concrete surfaces to remove stains and dirt.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370645Z",
+      "completedAt": null
+    },
+    {
+      "id": 5,
+      "title": "Clean outdoor lighting fixtures and ensure they are working properly.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370648Z",
+      "completedAt": null
+    },
+    {
+      "id": 6,
+      "title": "Inspect and clean the garbage bin, ensure it is not overflowing.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370652Z",
+      "completedAt": null
+    },
+    {
+      "id": 7,
+      "title": "Organize outdoor seating to ensure a tidy appearance.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370655Z",
+      "completedAt": null
+    },
+    {
+      "id": 8,
+      "title": "Clean cushions on outdoor furniture.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370658Z",
+      "completedAt": null
+    },
+    {
+      "id": 9,
+      "title": "Remove any visible litter or debris in parking areas.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370661Z",
+      "completedAt": null
+    },
+    {
+      "id": 10,
+      "title": "Repaint faded or worn parking lines and markings.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370664Z",
+      "completedAt": null
+    },
+    {
+      "id": 11,
+      "title": "Clean or replace entrance mats.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370667Z",
+      "completedAt": null
+    },
+    {
+      "id": 12,
+      "title": "Clean walls with marks or stains.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370670Z",
+      "completedAt": null
+    },
+    {
+      "id": 13,
+      "title": "Sweep and mop hallways and staircases to remove dirt and debris.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370673Z",
+      "completedAt": null
+    },
+    {
+      "id": 14,
+      "title": "Secure any loose or misaligned railings.",
+      "details": [
+        {
+          "label": "Extra Details",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "period": "unspecified",
+      "filled": {},
+      "completed": false,
+      "createdAt": "2025-07-16T02:22:28.370676Z",
+      "completedAt": null
+    }
+  ],
+  "photos": [],
+  "last_synced": "2025-07-16T02:19:17.225345Z",
+  "video_url": "/video/uploaded_walkthrough.mov",
+  "ai_tasks": [
+    "Clean and remove debris from parking area floors.",
+    "Repaint or touch-up parking space lines for visibility.",
+    "Repair any visible leaks in pipes within the parking area.",
+    "Ensure proper lighting throughout the parking area.",
+    "Clean the walls in the parking area to remove marks and stains.",
+    "Repair or replace damaged light fixtures in the parking area.",
+    "Clear any garbage or debris from around the vehicles in the parking area.",
+    "Inspect and maintain the condition of the trash cans outside.",
+    "Clean and arrange outdoor furniture cushions properly.",
+    "Sweep and pressure wash the patio and outdoor common areas.",
+    "Inspect outdoor seating area for stability and repair as needed.",
+    "Check the structural integrity of fencing and railings for safety.",
+    "Trim and maintain bushes and hedges along the walkway.",
+    "Clean walls and windows to remove dirt and marks.",
+    "Remove stains from concrete walkways and stairs.",
+    "Inspect and clean door mats at entrances.",
+    "Repair or repaint any peeling or damaged walls in stairwells and hallways.",
+    "Vacuum and clean staircases and hallways.",
+    "Fix any loose or damaged railings on staircases.",
+    "Ensure all fire safety equipment is accessible and properly placed.",
+    "Clean and remove spider webs or dust from ceilings.",
+    "Check that all emergency exit signs are clearly visible."
+  ]
+}

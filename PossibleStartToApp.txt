@@ -1,0 +1,54 @@
+// Simple Task Tracker App for Maintenance Workers
+
+class Task {
+    constructor(id, description, isCompleted = false, timestamp = new Date()) {
+        this.id = id;
+        this.description = description;
+        this.isCompleted = isCompleted;
+        this.timestamp = timestamp;
+    }
+}
+
+class TaskTracker {
+    constructor() {
+        this.tasks = [];
+        this.nextId = 1;
+    }
+
+    addTask(description) {
+        const task = new Task(this.nextId++, description);
+        this.tasks.push(task);
+        return task;
+    }
+
+    completeTask(id) {
+        const task = this.tasks.find(t => t.id === id);
+        if (task) {
+            task.isCompleted = true;
+            return true;
+        }
+        return false;
+    }
+
+    getPendingTasks() {
+        return this.tasks.filter(t => !t.isCompleted);
+    }
+
+    getCompletedTasks() {
+        return this.tasks.filter(t => t.isCompleted);
+    }
+
+    listAllTasks() {
+        return this.tasks;
+    }
+}
+
+// Example usage:
+const tracker = new TaskTracker();
+tracker.addTask("Check HVAC filters");
+tracker.addTask("Inspect fire extinguishers");
+tracker.completeTask(1);
+
+console.log("Pending Tasks:", tracker.getPendingTasks());
+console.log("Completed Tasks:", tracker.getCompletedTasks());
+console.log("All Tasks:", tracker.listAllTasks());
